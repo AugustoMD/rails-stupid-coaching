@@ -13,3 +13,62 @@
  *= require_tree .
  *= require_self
  */
+ /* -------Tag1-------*/
+ .tag1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(182, 182, 182);
+    color: rgb(75, 75, 75);
+    font-weight: 400;
+    margin-top: 300px;
+    margin-left: 900px;
+    margin-right: 800px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .tag1:hover {
+  background-color: rgb(75, 75, 75);
+  cursor: pointer;
+  color: white;
+ }
+ /* -------Tag2-------*/
+ .tag2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(182, 182, 182);
+  color: rgb(75, 75, 75);
+  font-weight: 400;
+  margin-top: 300px;
+  margin-left: 900px;
+  margin-right: 750px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.tag2:hover {
+background-color: rgb(75, 75, 75);
+cursor: pointer;
+color: white;
+}
+ /* -------Return Button-------*/
+ .btn-back {
+  background-color: rgb(80, 80, 150);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 10px 20px ;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 1280px;
+  margin-right: 800px;
+  margin-top: 600px;
+ }
+
+ .btn-back:hover {
+  background-color: rgb(60, 60, 100);
+  color: white;
+ }

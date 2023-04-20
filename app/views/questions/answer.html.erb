@@ -1,0 +1,10 @@
+<% @answer = params[:answer] %>
+<% if @answer == "Hello there" %>
+<h1 class="tag1">
+I dont'care, get dressed and go to work!
+</h1>
+<%end%>
+<% if @answer == "Can I go shopping"%>
+<h1 class="tag2">Silly question, get dressed and go to work!</h1>
+<%end%>
+<%= link_to "Back", ask_path, class: "btn-back" %>
